@@ -33,7 +33,7 @@ public class Names {
         return names.size();
     }
 
-    public boolean isNonExistenceUser(final String targetName) {
+    public boolean isNonExistenceUser(final String targetName) { asdasdasd
         return names.stream()
                 .allMatch(name -> !name.getValue().equals(targetName));
     }
